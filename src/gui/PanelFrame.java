@@ -14,7 +14,7 @@ public class PanelFrame extends JFrame {
         buttonJPanel = new JPanel(); // set up panel
         // create and add button
         for (int count=0;count < buttons.length;count++){
-            buttons[count] = new JButton("Button "+ (count+1));
+             buttons[count] = new JButton("Button "+ (count+1));
             buttonJPanel.add(buttons[count]); // add all buttons to the panel
         }
         add(buttonJPanel, BorderLayout.SOUTH); // add panel to frame
